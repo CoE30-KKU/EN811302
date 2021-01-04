@@ -1,4 +1,10 @@
-# Lab 2 - Java 101
+# Java 101
+
+สำหรับใครที่อยากล่วงหน้าไปก่อน สามารถศึกษาได้ที่:
+* https://www.w3schools.com/java/default.asp (Basic)
+* https://www.youtube.com/playlist?list=PLoTScYm9O0GF26yW0zVc2rzjkygafsILN (Basic + Intermidate, เป็นวิดีโอ เหมาะสำหรับคนที่ไม่ชอบอ่านข้อความ, ถ้าทำ lab 1 แล้วให้เริ่มดูคลิปที่ 9)
+* https://introcs.cs.princeton.edu/java/ (Intermidate)
+* http://math.hws.edu/javanotes/ (Advanced, Full version of Javadoc)
 
 สำหรับข้อนี้เป็นพื้นฐานการใช้ Java และ Intelij IDEA ในการเขียน Java
 
