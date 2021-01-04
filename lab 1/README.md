@@ -68,11 +68,14 @@
 
 หลังจากติดตั้งเรียบร้อยแล้ว ให้เปิด Command Prompt (CMD) แล้วพิมพ์ `git --version`
 
-![Image](https://pondhub.ga/img/2020/12/29/Screenshot%202020-12-29%20141618.png)
 หากขึ้น version ออกมาถือว่าใช้งานได้แล้ว
 
-![Image](https://user-images.githubusercontent.com/39224460/40680922-471c0946-63a5-11e8-8586-0f9eb97f6520.JPG)
+![Image](https://pondhub.ga/img/2020/12/29/Screenshot%202020-12-29%20141618.png)
+
+
 หากขึ้น `'git' is not recognized as ...` ให้เราทำการ Set PATH โดยทำเหมือนกับการตั้ง PATH ใน Java เลย โดยให้ Path เป็น Path ที่ติดตั้ง Git เอาไว้และเพิ่ม `\bin` (เช่น `C:\Program Files\Git\bin`)
+
+![Image](https://user-images.githubusercontent.com/39224460/40680922-471c0946-63a5-11e8-8586-0f9eb97f6520.JPG)
 
 สำหรับการใช้งานครั้งแรก ให้เราทำการตั้งค่าชื่อและ Email ของ Git ของเราด้วย
 โดยการพิมพ์คำสั่ง
