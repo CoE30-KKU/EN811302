@@ -20,7 +20,7 @@ public class CamelCaseNaming {
     }
 
     public static String camelCaseConvertor(String str) {
-        char[] ch = str.toCharArray(); //แปลง String ให้เป็น Char Array
+        char[] ch = str.toLowerCase().toCharArray(); //แปลง String ให้เป็น Char Array
         if (str.length() > 0)
             ch[0] = str.toUpperCase().charAt(0); //ปรับให้ตัวแรกเป็นพิมพ์ใหญ่
         return new String(ch); //ส่งค่ากลับเป็น String
