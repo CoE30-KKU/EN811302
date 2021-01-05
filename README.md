@@ -67,9 +67,9 @@ public class Main {
 
 เช่น
 
-`int x = 72`
-`float y = -44.32`
-`String name = "Cat is CUTE!"`
+`int x = 72;`
+`float y = -44.32;`
+`String name = "Cat is CUTE!";`
 
 โดยประเภทตัวแปรสามารถศึกษาแบบคร่าวๆได้ที่ [Lab ที่ 2 ข้อที่ 2](https://github.com/CoE30-KKU/EN811302/blob/master/lab%202/%E0%B8%82%E0%B9%89%E0%B8%AD%202%20-%20PrimativeVariableType.md)
 
