@@ -9,7 +9,7 @@
 สำหรับข้อนี้เป็นพื้นฐานการใช้ Java และ Intelij IDEA ในการเขียน Java
 
 ## Java Syntax
----
+
 ```java
 public class Main {
     public static void main(String[] args) {
@@ -54,7 +54,7 @@ public class Main {
 
 
 ## **Java Variable**
----
+
 ใน Python เมื่อเราต้องการให้ตัวแปรใด ๆ แทนค่าใด ๆ เราจะให้ `a = สิ่งที่เราต้องการ` ได้เลย
 
 แต่ใน Java เราจำเป็นต้องระบุด้วยว่า a ที่เราต้องการจะให้แทนนั้น มีชนิดเป็นอะไร
