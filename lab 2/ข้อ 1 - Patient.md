@@ -2,7 +2,7 @@
 
 ข้อนี้เป็นเบสิคของการเขียน Java
 
-โดยมีการสอน Setup Run Configuration สำหรับโจทย์ที่เราต้องรับค่าจากผู้ใช้ด้วย ตามรูปด้านล่าง
+ก่อนอื่น เราต้อง Setup Run Configuration สำหรับทุก ๆ โจทย์ที่เราต้องรับค่าจากผู้ใช้ด้วย ตามรูปด้านล่าง
 
 ![](https://pondhub.ga/img/2021/01/05/Untitled_9.png)
 
@@ -38,5 +38,5 @@ public class Patient {
 ```
 ---
 อย่าลืม!
-- Setup Run Configurations ด้วย ใส่ $Prompt$ ใน Program Arguments ไม่งั้นจะขึ้น Error `java.lang.ArrayIndexOutOfBoundsException`
-- Style เป็นสิ่งที่สำคัญ อย่าลืมกฎ Camel Case Naming และการตั้งชื่อตัวแปรต่าง ๆ ให้สื่อความหมายและทำความเข้าใจได้ง่าย
+- Setup Run Configurations ด้วย ใส่ `$Prompt$` ใน Program Arguments ไม่งั้นจะขึ้น Error `java.lang.ArrayIndexOutOfBoundsException`
+- Style เป็นสิ่งที่สำคัญสำหรับการเขียนโค้ต อย่าลืมกฎ Camel Case Naming และการตั้งชื่อตัวแปรต่าง ๆ ให้สื่อความหมายและทำความเข้าใจได้ง่าย !
