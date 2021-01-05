@@ -6,6 +6,8 @@
 * https://introcs.cs.princeton.edu/java/ (Intermidate)
 * http://math.hws.edu/javanotes/ (Advanced, Full version of Javadoc)
 
+* https://www.youtube.com/watch?v=ypuHUfOzUTc&list=PL0ROnaCzUGB6Vtz0o4J22iE1VatwV03nj (Python -> Java,เป็นวิดีโอที่ฟังแล้วน่านอนมาก แต่ก็ถ้าเข้าใจจะดีมาก)
+
 สำหรับข้อนี้เป็นพื้นฐานการใช้ Java และ Intelij IDEA ในการเขียน Java
 
 ## Java Syntax
@@ -17,7 +19,7 @@ public class Main {
     }
 }
 ```
-ทุก ๆ โค้ตที่รันใน Java จะต้องอยู่ภายในไฟล์ Class เท่านั้น โดยในตัวอย่างด้านบน เราตั้งชื่อ Class ว่า Main (และชื่อ Class ต้องตั้งชื่อตาม[กฎ Camel Case Naming](https://www.geeksforgeeks.org/java-naming-conventions/) ด้วย) โดยชื่อไฟล์จะต้องตรงกับชื่อ Class ด้วย
+ทุก ๆ โค้ตที่รันใน Java จะต้องอยู่ภายในไฟล์ Class เท่านั้น โดยในตัวอย่างด้านบน เราตั้งชื่อ Class ว่า Main (และชื่อ Class ต้องตั้งชื่อตาม[กฎ Camel Case Naming](https://www.geeksforgeeks.org/java-naming-conventions/) ด้วย) โดยชื่อไฟล์**จะต้องตรงกับชื่อ Class ด้วย**
 
 Note: **Java เป็นภาษาที่ Case-Sensitive**
 
@@ -44,7 +46,9 @@ public class Main {
     }
 }
 ```
-เมื่อเรารันโค้ต Java นี้ จะได้ผลลัพธ์คือ Hello World ออกมา
+เมื่อเรารันโค้ต Java นี้ จะได้ผลลัพธ์คือ 
+
+>Hello World
 
 
 อย่าลืม!
@@ -57,18 +61,17 @@ public class Main {
 
 ใน Python เมื่อเราต้องการให้ตัวแปรใด ๆ แทนค่าใด ๆ เราจะให้ `a = สิ่งที่เราต้องการ` ได้เลย
 
-แต่ใน Java เราจำเป็นต้องระบุด้วยว่า a ที่เราต้องการจะให้แทนนั้น มีชนิดเป็นอะไร
+แต่ใน Java เราจำเป็นต้องระบุด้วยว่า a ที่เราต้องการจะให้แทนนั้น มีชนิดเป็นอะไร ซึ่งจะคล้ายๆลักษณะต่อไปนี้
 
-ตัวอย่าง Variable ใน Java
-* String - ใช้ในการเก็บข้อความ เช่น "Hello" โดยจะใช้ `"` ค่อม
-* int - ใช้ในการเก็บตัวเลขที่**ไม่มีทศนิยม** (`Integer.MAX_VALUE = 2147483647`)
-* long - ใช้ในการเก็บตัวเลขที่**ไม่มีทศนิยม** (เก็บค่าได้มากกว่า int) (`Long.MAX_VALUE = 9223372036854775807`)
-* float - ใช้ในการเก็บตัวเลขที่**มีทศนิยม** (`Float.MAX_VALUE` = `3.4028235E38`)
-* double - ใช้ในการเก็บตัวเลขที่**มีทศนิยม** (เก็บค่าได้มากกว่า float) (`Double.MAX_VALUE = 1.7E308`)
-* char - ใช้ในการเก็บตัวอักษร 1 ตัว เช่น 'a' หรือ 'B' โดยจะใช้ `'` ค่อม
-* boolean - ใช้ในการเก็บค่าระหว่าง `true` และ `false`
+`<ประเภทตัวแปร> <ชื่อตัวแปร> = สิ่งที่เราต้องการ`
 
+เช่น
 
+`int x = 72`
+`float y = -44.32`
+`String name = "Cat is CUTE!"`
+
+โดยประเภทตัวแปรสามารถศึกษาแบบคร่าวๆได้ที่ [Lab ที่ 2 ข้อที่ 2](https://github.com/CoE30-KKU/EN811302/blob/master/lab%202/%E0%B8%82%E0%B9%89%E0%B8%AD%202%20-%20PrimativeVariableType.md)
 
 
 ## **เดี๋ยวมาอัพเดทเพิ่ม
