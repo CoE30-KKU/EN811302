@@ -28,7 +28,7 @@ Note: **Java เป็นภาษาที่ Case-Sensitive**
 โดยทั่วไปแล้ว Java จะมีต่างจาก Python ที่ใช้การเคาะย่อหน้า (Indient) ในการบอกกลุ่ม Block ของโค้ต โดยใน Java เราจะใช้ปีกกา `} {` หรือ Bracket ในการระบุกลุ่ม Block ของโค้ต
 
 เปรียบเทียบ Block ของโค้ตระหว่าง Python และ Java
-![](https://pondhub.ga/img/2021/01/05/Untitled_8.png)
+![](https://pondhub.ga/img/2021/01/05/Untitled_12.png)
 
 
 
