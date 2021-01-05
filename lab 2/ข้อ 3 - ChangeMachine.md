@@ -42,3 +42,7 @@ public class ChangeMachine {
     }
 }
 ```
+---
+อย่าลืม!
+- Setup Run Configurations ด้วย ใส่ $Prompt$ ใน Program Arguments ไม่งั้นจะขึ้น Error `java.lang.ArrayIndexOutOfBoundsException`
+- Style เป็นสิ่งที่สำคัญ อย่าลืมกฎ Camel Case Naming และการตั้งชื่อตัวแปรต่าง ๆ ให้สื่อความหมายและทำความเข้าใจได้ง่าย
