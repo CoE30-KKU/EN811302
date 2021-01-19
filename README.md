@@ -18,8 +18,8 @@
     - [V - CamelCaseNaming](https://github.com/CoE30-KKU/EN811302/blob/master/Labs/lab%202/ข้อ%205%20-%20CamelCaseNaming.md)
 - Lab 3
     - [I - GuessNumberGame](https://github.com/CoE30-KKU/EN811302/blob/master/Labs/lab%203/ข้อ%201%20-%20GuessNumberGame.md)
-    - [II - GuessNumberGameV2](https://github.com/CoE30-KKU/EN811302/blob/master/Labs/lab%203/ข้อ%201%20-%20GuessNumberGameV2.md)
-    - [III - GuessNumberGameV3](https://github.com/CoE30-KKU/EN811302/blob/master/Labs/lab%203/ข้อ%201%20-%20GuessNumberGameV3.md)
+    - [II - GuessNumberGameV2](https://github.com/CoE30-KKU/EN811302/blob/master/Labs/lab%203/ข้อ%202%20-%20GuessNumberGameV2.md)
+    - [III - GuessNumberGameV3](https://github.com/CoE30-KKU/EN811302/blob/master/Labs/lab%203/ข้อ%203%20-%20GuessNumberGameV3.md)
 
 ---
 สำหรับใครที่อยากล่วงหน้าไปก่อน สามารถศึกษาได้ที่:
