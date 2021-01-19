@@ -60,7 +60,7 @@ public class Main {
 โดยทั่วไปแล้ว Java จะมีต่างจาก Python ที่ใช้การ**เคาะย่อหน้า** (Indient) ในการบอก**กลุ่ม Block ของโค้ต** โดยใน Java เราจะใช้ปีกกา `} {` หรือ Bracket ในการระบุกลุ่ม Block ของโค้ต
 
 เปรียบเทียบ Block ของโค้ตระหว่าง Python และ Java
-![](https://pondhub.ga/img/2021/01/05/Untitled_12.png)
+![](https://raw.githubusercontent.com/CoE30-KKU/EN811302/master/Java101/Res/0-1.png)
 
 
 อย่าลืม!
