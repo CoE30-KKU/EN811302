@@ -2,8 +2,8 @@
 
 ## **สารบัญ**
 ### **Java 101**
-- [Chapter 0 Getting Start](https://github.com/CoE30-KKU/EN811302/blob/master/Java101/Chapter%200%20Getting%20Start)
-- [Chapter 1 Variable](https://github.com/CoE30-KKU/EN811302/blob/master/Java101/Chapter%201%20Variable)
+- [Chapter 0 Getting Start](https://github.com/CoE30-KKU/EN811302/blob/master/Java101/Chapter%200%20Getting%20Start.md)
+- [Chapter 1 Variable](https://github.com/CoE30-KKU/EN811302/blob/master/Java101/Chapter%201%20Variable.md)
 - Chapter 2 Control Flow
 - Chapter 3 ...
 ### **Java Labs**
@@ -11,14 +11,14 @@
     - [Tools to develop and share Java Program](https://github.com/CoE30-KKU/EN811302/blob/master/Labs/lab%201/README.md)
 - Lab 2
     - [I - Patient](https://github.com/CoE30-KKU/EN811302/blob/master/Labs/lab%202/ข้อ%201%20-%20Patient.md)
-    - [II - PrimativeVariable](https://github.com/CoE30-KKU/EN811302/blob/master/Labs/lab%202/ข้อ%202%20-%20PrimativeVariable)
-    - [III - ChangeMachine](https://github.com/CoE30-KKU/EN811302/blob/master/Labs/lab%202/ข้อ%203%20-%20ChangeMachine)
-    - [IV - CircleCalculator](https://github.com/CoE30-KKU/EN811302/blob/master/Labs/lab%202/ข้อ%204%20-%20CircleCalculator)
-    - [V - CamelCaseNaming](https://github.com/CoE30-KKU/EN811302/blob/master/Labs/lab%202/ข้อ%205%20-%20CamelCaseNaming)
+    - [II - PrimativeVariable](https://github.com/CoE30-KKU/EN811302/blob/master/Labs/lab%202/ข้อ%202%20-%20PrimativeVariable.md)
+    - [III - ChangeMachine](https://github.com/CoE30-KKU/EN811302/blob/master/Labs/lab%202/ข้อ%203%20-%20ChangeMachine.md)
+    - [IV - CircleCalculator](https://github.com/CoE30-KKU/EN811302/blob/master/Labs/lab%202/ข้อ%204%20-%20CircleCalculator.md)
+    - [V - CamelCaseNaming](https://github.com/CoE30-KKU/EN811302/blob/master/Labs/lab%202/ข้อ%205%20-%20CamelCaseNaming.md)
 - Lab 3
-    - [I - GuessNumberGame](https://github.com/CoE30-KKU/EN811302/blob/master/Labs/lab%203/ข้อ%201%20-%20GuessNumberGame)
-    - [II - GuessNumberGameV2](https://github.com/CoE30-KKU/EN811302/blob/master/Labs/lab%203/ข้อ%201%20-%20GuessNumberGameV2)
-    - [III - GuessNumberGameV3](https://github.com/CoE30-KKU/EN811302/blob/master/Labs/lab%203/ข้อ%201%20-%20GuessNumberGameV3)
+    - [I - GuessNumberGame](https://github.com/CoE30-KKU/EN811302/blob/master/Labs/lab%203/ข้อ%201%20-%20GuessNumberGame.md)
+    - [II - GuessNumberGameV2](https://github.com/CoE30-KKU/EN811302/blob/master/Labs/lab%203/ข้อ%201%20-%20GuessNumberGameV2.md)
+    - [III - GuessNumberGameV3](https://github.com/CoE30-KKU/EN811302/blob/master/Labs/lab%203/ข้อ%201%20-%20GuessNumberGameV3.md)
 
 ---
 สำหรับใครที่อยากล่วงหน้าไปก่อน สามารถศึกษาได้ที่:
