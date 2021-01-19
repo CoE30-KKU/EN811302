@@ -4,8 +4,9 @@
 ### **Java 101**
 - [Chapter 0 Getting Start](https://github.com/CoE30-KKU/EN811302/blob/master/Java101/Chapter%200%20Getting%20Start.md)
 - [Chapter 1 Variable](https://github.com/CoE30-KKU/EN811302/blob/master/Java101/Chapter%201%20Variable.md)
-- Chapter 2 Control Flow
-- Chapter 3 ...
+- [Chapter 2 Control Flow](https://github.com/CoE30-KKU/EN811302/blob/master/Java101/Chapter%202%20Control%20Flow.md)
+- [Chapter 3 Array](https://github.com/CoE30-KKU/EN811302/blob/master/Java101/Chapter%203%20Array.md)
+- Chapter 4 Method
 ### **Java Labs**
 - Lab 1
     - [Tools to develop and share Java Program](https://github.com/CoE30-KKU/EN811302/blob/master/Labs/lab%201/README.md)
