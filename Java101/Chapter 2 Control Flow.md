@@ -46,19 +46,32 @@ System.out.println(result);
 ```
 
 ### Switch
+Switch เป็นคำสั่งในการเลือกทำงานของเงื่อนไขที่ตรงกันเพียงแค่เงื่อนไขเดียวเท่านั้น ซึ่งคล้ายกับการใช้ If-Else ในก่อนหน้านี้หน่ะแหละ แต่จะอยู่ในรูปแบบที่ย่อขึ้น
+
 ```java
 switch(expression) {
   case x:
-    // code block
+    // x-block
     break;
   case y:
-    // code block
+    // y-block
     break;
   default:
-    // code block
+    // default-block
 }
 ```
-Switch เป็นคำสั่งในการเลือกทำงานของเงื่อนไขที่ตรงกันเพียงแค่เงื่อนไขเดียวเท่านั้น ซึ่งคล้ายกับการใช้ If-Else ในก่อนหน้านี้หน่ะแหละ แต่จะอยู่ในรูปแบบที่ย่อขึ้น
+
+มีความหมายเดียวกันกับ
+```java
+if (expression == x) {
+  // x-block
+} else if (expression == y) {
+  // y-block
+} else{
+  // default-block
+} 
+```
+
 
 เช่น
 ```java
@@ -84,6 +97,40 @@ switch(floor) {
 **ข้อสังเกต**
 - `switch` จะมีการระบุ `default` ไว้เสมอ (ซึ่งคล้ายกับการระบุ else ที่เป็นกรณีอื่น ๆ เมื่อไม่ตรงกับเงื่อนไขใด ๆ)
 - ทุก ๆ case ใน `switch` จะต้องมีการ `break;` เพื่อยุติการค้นหาต่อใน `switch`
+
+#### :smiling_imp: วิชามาร (อาจทำให้คุณปวดหัวได้)
+
+ในแต่ละเคสสามารถใส่หลายเคสได้ เช่น
+
+
+```java
+String grade = "A";
+switch(grade) {
+  case "A":
+  case "B+":
+  case "B":
+		System.out.println("มึงทำดีแล้ว");
+		break;
+  case "C+":
+  case "C":
+		System.out.println("พยายามขึ้นหน่อย");
+		break;
+  case "D":
+		System.out.println("ดี ละ มึง!");
+		break;
+	default:
+		System.out.println("ไก่จิกเด็กตายบนปากโอ่ง");
+}
+```
+
+กรณีนี้คือ ถ้า grade เป็น A B+ หรือ B มันจะบอก มึงทำดีแล้ว
+
+ถ้า grade เป็น C+ หรือ C มันจะบอก พยายามขึ้นหน่อย
+
+ถ้า grade เป็น D มันจะบอก ดี ละ มึง!
+
+ถ้ากรณีอื่นๆ มันจะบอก ไก่จิกเด็กตายบนปากโอ่ง
+
 
 ## Looping statement
 ### While loop
@@ -184,3 +231,5 @@ for (int i = 0; i < 10; i++) {
   System.out.println(i);
 }
 ```
+
+![](https://raw.githubusercontent.com/CoE30-KKU/EN811302/master/Java101/Res/2-1.png)
