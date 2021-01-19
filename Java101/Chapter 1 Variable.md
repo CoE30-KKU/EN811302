@@ -27,4 +27,4 @@
 
 - boolean ใช้ในการเก็บค่าระหว่าง `จริง (true)` และ `เท็จ (false)` *สังเกตว่า true กับ false ทั้งหมดเป็น**ตัวพิมพ์เล็ก***
 
-สามารถลองได้ที่ [Lab 2 ข้อที่ 2](https://github.com/CoE30-KKU/EN811302/blob/master/lab%202/%E0%B8%82%E0%B9%89%E0%B8%AD%202%20-%20PrimativeVariableType.md)
+สามารถลองได้ที่ [Lab 2 ข้อที่ 2](https://github.com/CoE30-KKU/EN811302/blob/master/Labs/lab%202/%E0%B8%82%E0%B9%89%E0%B8%AD%202%20-%20PrimativeVariableType.md)
