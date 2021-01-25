@@ -8,7 +8,7 @@
 ```java
 public class CircleCalculator {
     public static void main(String[] args) {
-        if (args.length == 1) {
+        if (args.length == 1 && Double.parseDouble(args[0]) >= 0) { //Need <radius> and <radius> should be non-negative
             double radius = Double.parseDouble(args[0]);
             double area = Math.PI * Math.pow(radius,2); //พื้นที่วงกลม = pi*radius^2
             double circumreference = 2 * radius * Math.PI; //เส้นรอบวงกลม = 2*pi*radius
