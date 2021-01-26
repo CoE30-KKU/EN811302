@@ -101,11 +101,11 @@ WUT!? ทั้งๆที่เราแก้แค่ `arrayFirst` ไม่
 ```java
 char[] OTOG = new char[] {'O','T','O','G'};
 ```
-![รูปภาพอันสวยงาม](https://raw.githubusercontent.com/CoE30-KKU/EN811302/master/Java101/Res/3-1.png)
+![รูปภาพอันสวยงาม](https://raw.githubusercontent.com/CoE30-KKU/EN811302/master/Java101/Res/3-1.PNG)
 
 ถ้่าเราลอง `char[] newOTOG = OTOG;` มันจะเกิดสิ่งนี้
 
-![รูปภาพอันสวยงาม](https://raw.githubusercontent.com/CoE30-KKU/EN811302/master/Java101/Res/3-2.png)
+![รูปภาพอันสวยงาม](https://raw.githubusercontent.com/CoE30-KKU/EN811302/master/Java101/Res/3-2.PNG)
 
 จะเห็นว่าหน่วยความจำดันชี้ช่องเดียวกัน ดังนั้นไม่แปลกที่จะเปลี่ยนค่าใน Array นึงแล้วมีผลกับอีกอัน
 
@@ -134,7 +134,7 @@ System.out.println("H");
 
 >จริงๆอาจจะมีหลายวิธีอยู่ อันนี้เป็นเพียงแค่การยกตัวอย่างเท่านั้น
 
-![รูปภาพอันสวยงาม](https://raw.githubusercontent.com/CoE30-KKU/EN811302/master/Java101/Res/3-3.png)
+![รูปภาพอันสวยงาม](https://raw.githubusercontent.com/CoE30-KKU/EN811302/master/Java101/Res/3-3.PNG)
 
 ### ตัวอย่างการนำไปใช้
 TODO
