@@ -56,4 +56,87 @@ System.out.println(x); // Outputs 7
 ดังนั้นผลลัพธ์จึงออกมาเป็น
 > 7
 
+### ข้อควรระวังเวลาคัดลอก Array
+สมมติว่าเรามี Array อันหนึ่ง แล้วเรามี Array อีกอันที่จะคัดลอก เราก็อาจจะสามารถทำแบบนี้ได้
+
+```java
+int[] arrayFirst = {1,4,6,5,3};
+int[] arraySecond = arrayFirst;
+```
+
+ลองปริ้นๆ
+
+```java
+System.out.println(Arrays.toString(arrayFirst));
+System.out.println(Arrays.toString(arraySecond));
+```
+
+```
+[1,4,6,5,3]
+[1,4,6,5,3]
+```
+
+EZ ......แต่ๆๆๆๆๆถ้าเราลองเปลี่ยนค่าเปลี่ยนค่า
+
+```java
+int[] arrayFirst = {1,4,6,5,3};
+int[] arraySecond = arrayFirst;
+arrayFirst[2] = -420;
+System.out.println(Arrays.toString(arrayFirst));
+System.out.println(Arrays.toString(arraySecond));
+```
+
+ก็จะได้
+```
+[1,4,-420,5,3]
+[1,4,-420,5,3]
+```
+
+WUT!? ทั้งๆที่เราแก้แค่ `arrayFirst` ไม่ได้แก้ `arraySecond` แต่ดันมีผลกลับ `arraySecond` ด้วย นั้นเพราะว่า...
+
+#### :smiling_imp: วิชามาร (อาจทำให้คุณปวดหัวได้)
+เวลาเราสร้าง Array ตัวนึง
+ในความจำของคอมพิวเตอร์จะออกมาเป็นลักษณะนี้
+
+```java
+char[] OTOG = new char[] {'O','T','O','G'};
+```
+![รูปภาพอันสวยงาม](https://raw.githubusercontent.com/CoE30-KKU/EN811302/master/Java101/Res/3-1.png)
+
+ถ้่าเราลอง `char[] newOTOG = OTOG;` มันจะเกิดสิ่งนี้
+
+![รูปภาพอันสวยงาม](https://raw.githubusercontent.com/CoE30-KKU/EN811302/master/Java101/Res/3-2.png)
+
+จะเห็นว่าหน่วยความจำดันชี้ช่องเดียวกัน ดังนั้นไม่แปลกที่จะเปลี่ยนค่าใน Array นึงแล้วมีผลกับอีกอัน
+
+### เวลาคัดลอก Array(ต่อ)
+วิธีที่ 1 ประกาศใหม่ แล้วก็ก็อบทีละค่า
+```java
+char[] OTOG = new char[] {'O','T','O','G'};
+char[] NewOTOG = new char[OTOG.length];
+for (int i = 0; i < OTOG.length; i++) {
+    NewOTOG[i] = OTOG[i];
+}
+```
+
+วิธีที่ 2 ใช้บริการของ Arrays
+```java
+char[] OTOG = new char[] {'O','T','O','G'};
+char[] NewOTOG = OTOG.clone();
+```
+
+วิธีที่ 3 ใช้บริการของ Arrays แบบ 2
+```java
+char[] OTOG = new char[] {'O','T','O','G'};
+char[] NewOTOG = Arrays.copyOf(OTOG, OTOG.length);
+System.out.println("H");
+```
+
+>จริงๆอาจจะมีหลายวิธีอยู่ อันนี้เป็นเพียงแค่การยกตัวอย่างเท่านั้น
+
+![รูปภาพอันสวยงาม](https://raw.githubusercontent.com/CoE30-KKU/EN811302/master/Java101/Res/3-3.png)
+
+### ตัวอย่างการนำไปใช้
+TODO
+
 
