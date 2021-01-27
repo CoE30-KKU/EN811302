@@ -163,6 +163,8 @@ for (int i = 1; i < nums.length; i++) {//ไล่ตั้งแต่ตัว
 หลักการ(ง่ายๆ)คือ
 ไล่แม่งทุกตัวเลย แล้่วก็ค่อยเช็คว่าแต่ละตัวนั้นคือสิ่งที่หาหรือเปล่า
 
+![รูปภาพอันสวยงาม](https://raw.githubusercontent.com/CoE30-KKU/EN811302/master/Java101/Res/3-10.PNG)
+
 ตัวอย่างการเขียนโค้ด
 
 ```java
@@ -188,6 +190,7 @@ for (int i = 0; i < nums.length; i++) {//ไล่แม่งทุกตัว
 
 แต่ถ้าเราหา**ไม่เจอ** มันก็จะต้อง**ไล่หาเท่ากับจำนวนของข้อมูล** ถ้ามี 10 20 ตัวก็ไม่เป็นไรหรอก แต่ถ้ามันดันมีเป็นล้าน สิบล้าน และแย่กว่านั้นคือ ถ้าไม่ได้ถามแค่ครั้งเดียวหล่ะ มันก็จะนานโคตรๆๆๆๆ
 
+![รูปภาพอันสวยงาม](https://raw.githubusercontent.com/CoE30-KKU/EN811302/master/Java101/Res/3-11.PNG)
 
 #### การหาข้อมูลแบบวิธี Binary Search(การค้นหาแบบทวีภาค)
 คือวิธีการหาข้อมูลที่**เร็วที่สุดในโลกแล้วววววววววว** แต่มีเงื่อนไขเดียวคือ **ข้อมูลจะต้องเรียงให้ถูกต้องก่อน**
@@ -261,4 +264,111 @@ int isFound = Arrays.binarySearch(nums, find);
 **`Arrays.binarySearch` มีไว้หาเฉยๆ ไม่เรียงให้**
 
 #### การเรียงข้อมูล
-TODO:
+จากที่เรารู้แล้วว่า Binary Search นั้นใช้เวลาที่น้อยโคตรๆ แต่ก็มีข้อจำกัดอยู่หนึ่งอย่างก็คือ ต้อง**เรียงข้อมูลก่อน** โดยในเอกสารนี้จะเสนอแค่ 3 วิธี(ปกติมันมีเยอะมากๆๆๆๆๆ)
+
+##### การเรียงข้อมูล โดยวิธี Insertion Sort
+Insertion แปลว่า ~~เสียบ~~แทรก ดังนั้นวิธีนี้คือการแทรกเพื่อเรียง
+
+หลักการง่ายๆ คือ ทุกตัวจะถูกหยิบและเช็คตัวด้านซ้าย ถ้ามีค่าน้อยกว่าก็ทำซ้ำไปเรื่อยๆ จนกว่าจะมีค่ามากกว่าฝั่งซ้าย...งง? ลองดูรูปต่อไปนี้
+
+![รูปภาพอันสวยงาม](https://raw.githubusercontent.com/CoE30-KKU/EN811302/master/Java101/Res/3-12.PNG)
+
+เพราะ `42` อยู่ด้่านซ้ายอยู่แล้ว จึงไม่มีค่า(ฝั่งซ้าย)ให้เทียบ
+
+![รูปภาพอันสวยงาม](https://raw.githubusercontent.com/CoE30-KKU/EN811302/master/Java101/Res/3-13.PNG)
+
+จะเห็นว่า `20` น้่อยกว่า `42` ดังนั้น ก็**แทรกมันซะ**
+
+![รูปภาพอันสวยงาม](https://raw.githubusercontent.com/CoE30-KKU/EN811302/master/Java101/Res/3-14.PNG)
+
+แทรกสำเร็จแล้วก็ดูตัวต่อไป
+
+![รูปภาพอันสวยงาม](https://raw.githubusercontent.com/CoE30-KKU/EN811302/master/Java101/Res/3-15.PNG)
+
+จะเห็นว่า `14` นั้นน้่อยกว่า `42` และก็น้อยว่า `20` ดังนั้น ก็**แทรกมันซะ**
+
+![รูปภาพอันสวยงาม](https://raw.githubusercontent.com/CoE30-KKU/EN811302/master/Java101/Res/3-16.PNG)
+
+แทรกสำเร็จแล้วก็ดูตัวต่อไป
+
+![รูปภาพอันสวยงาม](https://raw.githubusercontent.com/CoE30-KKU/EN811302/master/Java101/Res/3-17.PNG)
+
+จะเห็นว่า `13` นั้นน้่อยกว่า `42` น้อยว่า `20` และก็น้อยว่า `14` ดังนั้น ก็**แทรกมันซะ** แล้วก็ดูตัวต่อไป
+
+![รูปภาพอันสวยงาม](https://raw.githubusercontent.com/CoE30-KKU/EN811302/master/Java101/Res/3-18.PNG)
+
+จะเห็นว่า `28` นั้นน้่อยกว่า `42` แต่ยังมากกว่า `20` ดังนั้น**ก็แทรกแค่หลัง `20`**
+
+![รูปภาพอันสวยงาม](https://raw.githubusercontent.com/CoE30-KKU/EN811302/master/Java101/Res/3-19.PNG)
+
+แทรกสำเร็จแล้วก็ดูตัวต่อไป(ขอแบบเร็วๆ)
+
+![รูปภาพอันสวยงาม](https://raw.githubusercontent.com/CoE30-KKU/EN811302/master/Java101/Res/3-20.PNG)
+
+![รูปภาพอันสวยงาม](https://raw.githubusercontent.com/CoE30-KKU/EN811302/master/Java101/Res/3-21.PNG)
+
+![รูปภาพอันสวยงาม](https://raw.githubusercontent.com/CoE30-KKU/EN811302/master/Java101/Res/3-22.PNG)
+
+![รูปภาพอันสวยงาม](https://raw.githubusercontent.com/CoE30-KKU/EN811302/master/Java101/Res/3-23.PNG)
+
+![รูปภาพอันสวยงาม](https://raw.githubusercontent.com/CoE30-KKU/EN811302/master/Java101/Res/3-24.PNG)
+
+>ว้าวซ่ามันเรียงให้แล้วว
+
+##### การเรียงข้อมูล โดยวิธี Select Sort
+Select แปลว่า เลือก ดังนั้นวิธีนี้คือการค่อยๆเลือกแล้วก็เรียง
+
+หลักการง่ายๆ คือ ในทุกๆต่ำแหน่ง จะทำการหาตัวเลขที่น้อยที่สุด(ที่ไม่ใช่ฝั่งซ้ายของตำแหน่งมันเอง)มาสลับในตำแหน่งมันเอง
+
+
+ลองดูรูปต่อไปนี้
+![รูปภาพอันสวยงาม](https://raw.githubusercontent.com/CoE30-KKU/EN811302/master/Java101/Res/3-25.PNG)
+
+มาเริ่มที่ตำแหน่งแรก (`42`) ตัวเลขที่น้อยที่สุดคือ `13` ดังนั้นก็สลับ `42` และ `13`
+
+![รูปภาพอันสวยงาม](https://raw.githubusercontent.com/CoE30-KKU/EN811302/master/Java101/Res/3-26.PNG)
+
+สลับแล้วก็หาตัวเลขที่น้อยที่สุดตั้งแต่ `20`
+
+![รูปภาพอันสวยงาม](https://raw.githubusercontent.com/CoE30-KKU/EN811302/master/Java101/Res/3-27.PNG)
+
+ตัวเลขที่น้อยที่สุดคือ `14` ดังนั้นก็สลับ `20` และ `14`
+
+![รูปภาพอันสวยงาม](https://raw.githubusercontent.com/CoE30-KKU/EN811302/master/Java101/Res/3-28.PNG)
+
+สลับแล้วก็หาตัวเลขที่น้อยที่สุดตั้งแต่ `17` ขอแบบเร็วๆ
+![รูปภาพอันสวยงาม](https://raw.githubusercontent.com/CoE30-KKU/EN811302/master/Java101/Res/3-29.PNG)
+
+![รูปภาพอันสวยงาม](https://raw.githubusercontent.com/CoE30-KKU/EN811302/master/Java101/Res/3-30.PNG)
+
+![รูปภาพอันสวยงาม](https://raw.githubusercontent.com/CoE30-KKU/EN811302/master/Java101/Res/3-31.PNG)
+
+![รูปภาพอันสวยงาม](https://raw.githubusercontent.com/CoE30-KKU/EN811302/master/Java101/Res/3-32.PNG)
+
+![รูปภาพอันสวยงาม](https://raw.githubusercontent.com/CoE30-KKU/EN811302/master/Java101/Res/3-33.PNG)
+
+![รูปภาพอันสวยงาม](https://raw.githubusercontent.com/CoE30-KKU/EN811302/master/Java101/Res/3-34.PNG)
+
+![รูปภาพอันสวยงาม](https://raw.githubusercontent.com/CoE30-KKU/EN811302/master/Java101/Res/3-35.PNG)
+
+
+>ว้าวซ่ามันเรียงให้แล้วว
+
+##### การเรียงข้อมูล โดยใช้คำสั่งในภาษา Java
+จะเห็นว่าวิธี Insertion Sort และ Select Sort เป็นวิธีเรียงที่เข้าใจง่าย(มั้ง) แต่ข้อเสียก็ตามนั้นก็คือ ช้า นั้น เอง (ขออนุญาตไม่พิสูจน์ว่าทำไมมันช้า) เขียนก็ยาก ดังนั้นเลยเสนอวิธีสุดท้ายก็คือ `Arrays.sort`
+
+ตัวอย่าง
+```java
+int[] nums = {3,5,1,2,9};
+Arrays.sort(nums);
+```
+
+> จบเลย
+
+แล้วเราจะเรียน Insertion Sort กับ Select Sort ไปธัมมัย
+
+นั้นสิคิดเหมือนกัน แต่บางครั้งเราอย่างเรียงอะไรแปลกๆ เช่น เรียงจากมากไปน้อย เรียงเฉพาะเลขคู่ เราจะเขียนได้ยังไง
+
+ลองไปคิดหรือไม่ก็ค้นหาในเน็ต(Sort Comparator)ได้ จากนั้นก็ลองประชันกับข้อ ![Sort 1-5](https://grader.ga/problem/60)
+
+> ขาย ตรง :3
