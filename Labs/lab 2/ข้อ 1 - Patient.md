@@ -4,7 +4,7 @@
 
 ก่อนอื่น เราต้อง Setup Run Configuration สำหรับทุก ๆ โจทย์ที่เราต้องรับค่าจากผู้ใช้ด้วย ตามรูปด้านล่าง
 
-![](https://pondhub.ga/img/2021/01/05/Untitled_9.png)
+![](https://raw.githubusercontent.com/CoE30-KKU/EN811302/master/Labs/lab%201/Res/Untitled_9.png)
 
 สำหรับหลักการของข้อนี้:
 เวลาที่ Java Command Line App รับค่าเข้าจากผู้ใช้ จะเก็บอยู่ในตัวแปร args ที่เราระบุเอาไว้ใน main (สังเกตจาก `public static void main(String[] args))`) ในรูปแบบของ Array โดยจะเรียงลำดับตามการรับเข้า ค่าไหนใส่ก่อนจะมาก่อน 

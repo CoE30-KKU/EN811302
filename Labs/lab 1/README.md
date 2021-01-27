@@ -11,7 +11,7 @@
 
 โดย JDK สามารถดาวน์โหลดได้ที่ [https://www.oracle.com/java/technologies/javase-jdk15-downloads.html](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html) โดยให้เลือกดาวน์โหลด `Windows x64 Installer` สำหรับเครื่องคอมพิวเตอร์ Windows แล้วติดตั้งตัวโปรแกรมให้เรียบร้อย
 
-![Image](https://pondhub.ga/img/2020/12/28/Screenshot%202020-12-28%20220535.png)
+![Image](https://raw.githubusercontent.com/CoE30-KKU/EN811302/master/Labs/lab%201/Res/Screenshot%202020-12-28%20220535.png)
 
 หลังจากที่ติดตั้งเสร็จเรียบร้อยแล้ว เราจะยังไม่สามารถใช้คำสั่งของ Java ได้ทันที ให้ทำการเข้าไปเซท Environment ของเครื่องก่อน
 
@@ -23,7 +23,7 @@
 4) เลื่อนหา `PATH` ใน `System Variables` (ถ้าไม่มีให้กด new เพื่อสร้างใหม่ได้เลย)
 5) เพิ่มตำแหน่งของ JDK ที่เราลงเอาไว้ก่อนหน้า โดยให้เติม \bin ตามท้ายด้วย เช่น `C:\Program Files\Java\jdk...\bin`
 
-![Image](https://pondhub.ga/img/2020/12/28/Untitled.png)
+![Image](https://raw.githubusercontent.com/CoE30-KKU/EN811302/master/Labs/lab%201/Res/Untitled_PATH.png)
 
 ### **Intelij IDEA**
 ---
@@ -39,7 +39,7 @@
 4) ในอีเมลที่ส่งมาจะมีให้กด `follow this link` เพื่อดำเนินการต่อ ให้อ่านเงื่อนไขการให้บริการให้เรียบร้อยแล้วกด Accept
 5) หากยังไม่มี Jetbrains Account ให้กด `Create an account`, หากมีอยู่แล้วให้ใส่ข้อมูลแล้ว `Login`
 6) ให้กดปุ่ม `Download` ด้านใต้ `JetBrains Product Pack for Students` แล้วตามหา Intelij IDEA Ultimate
-![Image](https://pondhub.ga/img/2020/12/29/Screenshot%202020-12-29%20141104.png)
+![Image]((https://raw.githubusercontent.com/CoE30-KKU/EN811302/master/Labs/lab%201/Res/Screenshot%202020-12-29%20141104.png)
 7) หลังจากที่ติดตั้งเรียบร้อยแล้ว จะมีให้ Activate License เมื่อเราเปิดโปรแกรมครั้งแรก ให้ล็อกอินด้วยข้อมูลเดียวกันกับที่ใช้ login ในเว็บ JetBrains ในขั้นตอนที่ `5`
 
 
@@ -47,16 +47,16 @@
 ---
 
 สำหรับการใช้งานครั้งแรก และยังไม่มีโปรเจค หรือต้องการจะสร้างโปรเจคใหม่ ให้เรากด `New Project` แล้วเลือก `Java` แล้วกด `Next`
-![](https://pondhub.ga/img/2020/12/29/Untitled.png)
+![](https://raw.githubusercontent.com/CoE30-KKU/EN811302/master/Labs/lab%201/Res/Intelij_1.png)
 
 สำหรับหน้าถัดมา จะเป็น Project Template ให้ อันนี้แล้วแต่ว่าเราจำเป็นต้องใช้ Project Template ของ Intelij หรือไม่ (สำหรับคนที่พึ่งเริ่ม แนะนำให้ติ๊กเอาไว้ด้วย)
-![](https://pondhub.ga/img/2020/12/29/Untitled_1.png)
+![](https://raw.githubusercontent.com/CoE30-KKU/EN811302/master/Labs/lab%201/Res/Intelij_2.png)
 
 หน้าถัดมาเป็นหน้าสำหรับตั้งข้อมูลของโปรเจคเรา ซึ่งข้อมูลส่วนนี้แล้วแต่ว่าเราจะตั้งค่าอะไรยังไงก็ได้
-![](https://pondhub.ga/img/2020/12/29/Untitled_2.png)
+![](https://raw.githubusercontent.com/CoE30-KKU/EN811302/master/Labs/lab%201/Res/Intelij_3.png)
 
 หลังจากที่กด Finish แล้วจะปรากฏหน้าต่างสำหรับดำเนินการต่าง ๆ กับโค้ตของเราทั้งหมด เป็นอันว่าเสร็จสิ้นการสร้าง Project
-![](https://pondhub.ga/img/2020/12/29/Untitled_3.png)
+![](https://raw.githubusercontent.com/CoE30-KKU/EN811302/master/Labs/lab%201/Res/Intelij_4.png)
 
 
 ### **Git**
@@ -70,7 +70,7 @@
 
 หากขึ้น version ออกมาถือว่าใช้งานได้แล้ว
 
-![Image](https://pondhub.ga/img/2020/12/29/Screenshot%202020-12-29%20141618.png)
+![Image](https://raw.githubusercontent.com/CoE30-KKU/EN811302/master/Labs/lab%201/Res/Screenshot%202020-12-29%20141618.png)
 
 
 หากขึ้น `'git' is not recognized as ...` ให้เราทำการ Set PATH โดยทำเหมือนกับการตั้ง PATH ใน Java เลย โดยให้ Path เป็น Path ที่ติดตั้ง Git เอาไว้และเพิ่ม `\bin` (เช่น `C:\Program Files\Git\bin`)
@@ -101,17 +101,17 @@
 
 
 **กรณีที่ยังไม่สร้าง Reposity**
-หลังจากที่เรา Login แล้ว ถ้ายังไม่มี Repository ให้เรากด ["Create repository"](https://github.com/new) ![](https://pondhub.ga/img/2021/01/05/Untitled.png)
-จากนั้นให้เราตั้งชื่อ Repository ของเราซะ (โดยในที่นี้อาจารย์ให้ใช้เป็น `รหัสนักศึกษาไม่มีขีด-java-labs` เช่น `6330401661-java-labs` และอาจารย์ให้เลือกเป็น **Private** ด้วยนะ!) จากนั้นก็กด Create repository เลย ![](https://pondhub.ga/img/2021/01/05/Untitled_1.png)
+หลังจากที่เรา Login แล้ว ถ้ายังไม่มี Repository ให้เรากด ["Create repository"](https://github.com/new) ![](https://raw.githubusercontent.com/CoE30-KKU/EN811302/master/Labs/lab%201/Res/Untitled.png)
+จากนั้นให้เราตั้งชื่อ Repository ของเราซะ (โดยในที่นี้อาจารย์ให้ใช้เป็น `รหัสนักศึกษาไม่มีขีด-java-labs` เช่น `6330401661-java-labs` และอาจารย์ให้เลือกเป็น **Private** ด้วยนะ!) จากนั้นก็กด Create repository เลย ![](https://raw.githubusercontent.com/CoE30-KKU/EN811302/master/Labs/lab%201/Res/Untitled_1.png)
 
 เราจะได้ Repository ของเราขึ้นมา ให้เราคัดลอกลิ้งก์เข้า Repository ของเราไว้ (ตรงที่ลูกศรชี้ หรือ URL ของหน้าเว็บนี้ก็ได้)
-![](https://pondhub.ga/img/2021/01/05/Untitled_2.png)
+![](https://raw.githubusercontent.com/CoE30-KKU/EN811302/master/Labs/lab%201/Res/Untitled_2.png)
 
 
 จากนั้นให้เข้ามาใน Command Prompt หรือ Git Bash (แล้วแต่สะดวก)
 แล้วพิมพ์ `git clone <URL ของ Repository ที่คัดลอกไว้ วางโดยการคลิ๊กเม้าส์ขวา>` 
 
-ถ้าหากทำถูกต้อง จะได้โฟลเดอร์ที่ชื่อเดียวกับ Repository ใน Github ที่อยู่ใน `C:/User/<User>/<Repository>` (ข้อสังเกต: ตำแหน่งของโฟลเดอร์จะเป็นตำแหน่งเดียวกับที่เขียนอยู่ใน Command Prompt ที่ขีดสีแดงเอาไว้) ![](https://pondhub.ga/img/2021/01/05/Untitled_4.png)
+ถ้าหากทำถูกต้อง จะได้โฟลเดอร์ที่ชื่อเดียวกับ Repository ใน Github ที่อยู่ใน `C:/User/<User>/<Repository>` (ข้อสังเกต: ตำแหน่งของโฟลเดอร์จะเป็นตำแหน่งเดียวกับที่เขียนอยู่ใน Command Prompt ที่ขีดสีแดงเอาไว้) ![](https://raw.githubusercontent.com/CoE30-KKU/EN811302/master/Labs/lab%201/Res/Untitled_4.png)
 
 
 **ให้จำไว้ให้ดี ๆ ว่าเรา Clone Repository ใส่โฟลเดอร์ไหนเอาไว้ เพราจะได้ใช้อยู่เรื่อย ๆ ด้วย**
@@ -124,7 +124,7 @@
 
 
 ข้อสังเกต หลังจากที่เราเปลี่ยน Current Directory แล้ว Path ที่อยู่ด้านหน้าจะเปลี่ยนตามไปด้วย
-![](https://pondhub.ga/img/2021/01/05/Untitled_6.png)
+![](https://raw.githubusercontent.com/CoE30-KKU/EN811302/master/Labs/lab%201/Res/Untitled_6.png)
 
 เมื่อเรามีการแก้ไขหรือเปลี่ยนแปลงไฟล์ใด ๆ **ภายใต้โฟลเดอร์ที่มี git** (Note: โฟลเดอร์ที่เรา git clone มาจะมี git อยู่ข้างในด้วย, แต่เป็นโฟลเดอร์ที่ซ่อนเอาไว้) เจ้า git จะคอยเก็บว่าเรามีการแก้ไข-เพิ่ม-ลบ-เปลี่ยนแปลงไฟล์ใดบ้าง
 
@@ -142,4 +142,4 @@ Warning: สำหรับการ push ครั้งแรก
 - Git อาจจะเตือนให้ตั้งชื่อ , Email ให้เลื่อนกลับไปอ่านด้านบนในส่วนของ Git
 - Git อาจขึ้นหน้าต่างหรือมีข้อความให้ Login ให้เราใช้ Username และ Password ของ GitHub.com ในการ Login
 
-![](https://pondhub.ga/img/2021/01/05/Untitled_7.png)
+![](https://raw.githubusercontent.com/CoE30-KKU/EN811302/master/Labs/lab%201/Res/Untitled_7.png)

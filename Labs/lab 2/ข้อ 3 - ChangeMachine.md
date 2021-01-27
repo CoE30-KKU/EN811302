@@ -3,7 +3,7 @@
 ข้อนี้เป็นการแปลงจากเหรียญให้เป็นจำนวนเงินที่มีทั้งหมด และแปลงเงินเหล่านั้นออกมาเป็นแบงค์ขนาดต่าง ๆ
 
 หลักการ
-![](https://pondhub.ga/img/2021/01/05/Untitled_11.png)
+![](https://raw.githubusercontent.com/CoE30-KKU/EN811302/master/Labs/lab%202/Res/ChangeMachine.png)
 
 ```java
 public class ChangeMachine {
