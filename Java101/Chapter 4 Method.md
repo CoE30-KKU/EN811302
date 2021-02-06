@@ -98,7 +98,7 @@ public static void main(String args[]) {
 ## Method
 ถ้านึกไม่ออกก็ลองนึกถึงกล่องเวทย์มนต์กล่องหนึ่งที่มันสามารถ**รับค่ากี่ตัวก็ได้** และ**ส่งออกกี่ตัวก็ได้**
 
-![แมวๆๆๆๆๆ](https://raw.githubusercontent.com/CoE30-KKU/EN811302/master/Java101/Res/4-1.png)
+![แมวๆๆๆๆๆ](https://raw.githubusercontent.com/CoE30-KKU/EN811302/master/Java101/Res/4-1.PNG)
 
 ### วิธีการประกาศ Method
 
