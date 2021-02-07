@@ -369,6 +369,29 @@ Arrays.sort(nums);
 
 นั้นสิคิดเหมือนกัน แต่บางครั้งเราอย่างเรียงอะไรแปลกๆ เช่น เรียงจากมากไปน้อย เรียงเฉพาะเลขคู่ เราจะเขียนได้ยังไง
 
-ลองไปคิดหรือไม่ก็ค้นหาในเน็ต(Sort Comparator)ได้ จากนั้นก็ลองประชันกับข้อ [Sort 1-5](https://grader.ga/problem/60)
+ลองไปคิดหรือไม่ก็ค้นหาในเน็ต(Sort Comparator)ได้ 
 
 > ขาย ตรง :3
+
+----------------------------------------
+# เข้าสู่ช่วงขายของ (โจทย์ที่น่าลองจาก [Grader.ga](https://grader.ga/home/))
+
+## Array
+- [ข้อที่ 1 อนุพันธ์ในอาเรย์](https://grader.ga/problem/1)
+- [ข้อที่ 2 ค่าเฉลี่ยและความแปรปรวน](https://grader.ga/problem/2)
+- [ข้อที่ 6 Average](https://grader.ga/problem/6)
+- [ข้อที่ 26 เพลงรักลมหนาวนิ](https://grader.ga/problem/26)
+- [ข้อที่ 59 ฟุตฟิตฟอไฟ](https://grader.ga/problem/59)
+- [ข้อที่ 70 ปลาทูของแมวน้อย](https://grader.ga/problem/70)
+- [ข้อที่ 80 เบี้ยอักษร CoE](https://grader.ga/problem/80)
+
+## Binary Search
+
+- [ข้อที่ 67 ไบนารีเสิร์ช](https://grader.ga/problem/67)
+- [ข้อที่ 68 ไบนารีเสิร์ช เมพ](https://grader.ga/problem/68)
+- [ข้อที่ 69 โปรแกรมตัดเกรด](https://grader.ga/problem/69)
+- [ข้อที่ 76 Hiking](https://grader.ga/problem/76)
+
+## Sort
+
+- [ข้อที่ 60-66 Sort 1 ถึง 7](https://grader.ga/problem/60)

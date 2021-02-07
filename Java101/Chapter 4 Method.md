@@ -569,3 +569,17 @@ GCD of 14 and 16 is 2;
 > ขอไม่พิสูจน์ว่าทำไมมันถูก เพราะมันคือ ค ณิ ต ศ า ส ต ร์
 
 **โจทย์น่าคิด ลองสร้าง Method หา `ครน` โดยการใช้ `FastGCD` มาช่วย**
+
+----------------------------------------
+# เข้าสู่ช่วงขายของ (โจทย์ที่น่าลองจาก [Grader.ga](https://grader.ga/home/))
+
+จริง ๆ โจทย์ทั่วไปจะเขียนแบบมี Method หรือไม่มีก็ได้ ยกเว้นโจทย์พิเศษบางข้อ
+
+## Method
+- [ข้อที่ 84 โอเอ็กเอ็กโอ](https://grader.ga/problem/84)
+
+## Recursive
+- [ข้อที่ 73 ฟิโบของมดน้อย](https://grader.ga/problem/73)
+- [ข้อที่ 53 Greatest common divisor](https://grader.ga/problem/53)
+- [ข้อที่ 54 Least common multiple](https://grader.ga/problem/54)
+- [ข้อที่ 71 ไซน์ไม่ธรรมดา](https://grader.ga/problem/71)

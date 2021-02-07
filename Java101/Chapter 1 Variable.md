@@ -455,3 +455,11 @@ float someNum = Float.parseFloat(someStr);
 ```
 
 ------------------------------------------
+
+# เข้าสู่ช่วงขายของ (โจทย์ที่น่าลองจาก [Grader.ga](https://grader.ga/home/))
+
+## Opeator
+- [ข้อที่ 77 A plus B](https://grader.ga/problem/77)
+- [ข้อที่ 5 Sum10](https://grader.ga/problem/5)
+- [ข้อที่ 4 ซอร์ดอาร์ตออนไลน์](https://grader.ga/problem/4)
+- [ข้อที่ 25 โจทย์ที่ไม่น่าเป็นโจทย์](https://grader.ga/problem/25)

@@ -198,6 +198,9 @@ for (int i = 0; i < 10; i++) {
 
 ### For-each loop
 for-each loop เป็นอีก 1 ประเภทของ for loop ที่มักจะใช้กับการวน loop ทุกตัวใน array
+
+>ส่วน Array คืออะไร เราจะพูดใน Chapter ถัดไป
+
 ```java
 for (type variableName : arrayName) {
   // code block to be executed
@@ -233,3 +236,22 @@ for (int i = 0; i < 10; i++) {
 ```
 
 ![](https://raw.githubusercontent.com/CoE30-KKU/EN811302/master/Java101/Res/2-1.png)
+
+
+----------------------------------------
+# เข้าสู่ช่วงขายของ (โจทย์ที่น่าลองจาก [Grader.ga](https://grader.ga/home/))
+
+## if-then 
+- [ข้อที่ 78 พ่อสอนลูกทำการบ้าน](https://grader.ga/problem/78)
+- [ข้อที่ 21 อยากร้องเพลง](https://grader.ga/problem/21)
+
+## while-do for
+
+- [ข้อที่ 6 Average](https://grader.ga/problem/6)
+- [ข้อที่ 10-15 Pattern 1 ถึง 6](https://grader.ga/problem/10)
+- [ข้อที่ 9 การอาบน้ำของมานี](https://grader.ga/problem/9)
+- [ข้อที่ 23 โรงแรมในฝัน](https://grader.ga/problem/23)
+
+
+
+
