@@ -104,14 +104,14 @@ public static void main(String args[]) {
 
 Method สามารถประกาศได้ดังนี้
 
-```java
-public static <ReturnValue> <Name> (<Parameter>) {
-    ...
-}
-```
-`Name` ก็ตามนั้นแหละ มันก็คือชื่อ Method นั้นๆ
-`Parameter` ก็คือ สิ่งที่ Method จะรับ (หรือ จะไม่ใส่อะไรก็ได้)
-`ReturnValue` ก็คือ ประเภทตัวแปรที่ Method จะคืนค่าให้ ถ้า**ไม่คืนค่าอะไรก็ให้ใส่ `void`**(ความว่างเปล่า)
+![owo](https://raw.githubusercontent.com/CoE30-KKU/EN811302/master/Java101/Res/4-2.PNG)
+
+> รูปจาก [สไลด์อาจารย์](https://docs.google.com/presentation/d/1itad4qoN7mnPFV0aaAzGNqArQ-RrCE10vcLlQoHm_bY/edit#slide=id.p3)
+
+
+`methodName` ก็ตามนั้นแหละ มันก็คือชื่อ Method นั้นๆ
+`parameters` ก็คือ สิ่งที่ Method จะรับ (หรือ จะไม่ใส่อะไรก็ได้)
+`returnValueType` ก็คือ ประเภทตัวแปรที่ Method จะคืนค่าให้ ถ้า**ไม่คืนค่าอะไรก็ให้ใส่ `void`**(ความว่างเปล่า)
 
 เช่น
 
@@ -120,8 +120,7 @@ public static void hello() {
     System.out.println("Wat sup meow");
 }
 ```
-
-> จริงๆเราสามารถเปลี่ยน public static ได้ แต่ใน Chapter นี้ขอยังไม่พูดถึงความหมายมัน
+*จริงๆเราสามารถเปลี่ยน `modifier` (อี public static) ได้ แต่ใน Chapter นี้ขอยังไม่พูดถึงมันละกัน*
 
 ### วิธีการเรียกใช้ Method
 จริงสามารถเรียกใช้ที่ไหนก็ได้(ในเบื้องต้น) โดยวิธีการเรียกก็คือ `ชื่อ Method` และก็ `()` เช่น
